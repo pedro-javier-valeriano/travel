@@ -1,0 +1,67 @@
+.navbar .navbar-brand img {
+  width: 40px;
+}
+
+.text-platzi {
+  color: #97c93e !important;
+}
+
+.btn-platzi {
+  background-color: #97c93e !important;
+  color: white;
+}
+
+.btn-outline-platzi {
+  border: 2px solid #97c93e !important;
+  color: #97c93e;
+  background-color: transparent;
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .carousel-inner img {
+  max-height: 70vh;
+}
+
+#carousel img {
+  filter: grayscale(70%);
+}
+
+#carousel .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+#speakers .card .badges {
+  margin-bottom: 0.5em;
+}
+
+#place-time {
+  /*margin-top: 1em;*/
+  background-color: #343a40;
+  color: white;
+}
+
+#place-time iframe {
+  max-width: 100%;
+}
+
+#footer {
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+}
+
+#footer a {
+  color: white;
+}
